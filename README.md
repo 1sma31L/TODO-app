@@ -2,18 +2,12 @@
 
 A simple, responsive To-Do List application built with HTML, CSS, and JavaScript.
 
-## Preview
-![](assets/1.png)
-![](assets/2.png)
-![](assets/3.png)
-![](assets/4.png)
-
 
 ## Table of Contents
 
 - [To-Do List App](#to-do-list-app)
-  - [Preview](#preview)
   - [Table of Contents](#table-of-contents)
+  - [Preview](#preview)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Installation](#installation)
@@ -22,6 +16,12 @@ A simple, responsive To-Do List application built with HTML, CSS, and JavaScript
   - [Contributing](#contributing)
   - [License](#license)
   - [Contact](#contact)
+
+## Preview
+![](assets/1.png)
+![](assets/2.png)
+![](assets/3.png)
+![](assets/4.png)
 
 ## Introduction
 
