@@ -31,7 +31,7 @@ body {
 	flex-direction: column;
 	background-color: rgb(255, 255, 255);
 	padding: 35px;
-  padding-bottom: 100px;
+	padding-bottom: 100px;
 	gap: 10px;
 	border-radius: 15px;
 	width: 600px;
@@ -89,7 +89,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	/* align-items:flex-start; */
-	align-items:baseline;
+	align-items: baseline;
 
 	/* background-color: var(--input-color); */
 	padding: 10px 0;
@@ -105,21 +105,20 @@ body {
 }
 
 .task i {
-  opacity: 0.6;
+	opacity: 0.6;
 	cursor: pointer;
 	color: grey;
-  transition: filter 0.3s, transform 0.3s;
+	transition: filter 0.3s, transform 0.3s;
 }
 .task i:hover {
-  filter: contrast(3);
-  transform: scale(1.08);
+	filter: contrast(3);
+	transform: scale(1.08);
 }
 .task .fa-circle-check {
-  opacity: 1;
+	opacity: 1;
 	color: var(--accent-color);
 }
 .task.checked p {
-  text-decoration: line-through;
-  opacity: 0.6;
+	text-decoration: line-through;
+	opacity: 0.6;
 }
-
