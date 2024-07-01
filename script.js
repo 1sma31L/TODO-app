@@ -78,6 +78,9 @@ function addEventListeners() {
       };
       updateStats();
       togglError("", false);
+      if (tasksCounter === 0) {
+        taskStats.innerHTML = "";
+      }   
     });
   });
 };
