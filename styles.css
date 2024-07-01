@@ -47,6 +47,7 @@ body {
 	box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.5);
 	transition: box-shadow 0.2s;
 }
+
 .container:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -77,11 +78,13 @@ body {
 	align-items: flex-start;
 	color: #888888;
 }
+
 .error {
 	color: red;
 	width: 100%;
 	font-size: 20px;
 }
+
 .error p {
 	align-self: flex-start;
 }
