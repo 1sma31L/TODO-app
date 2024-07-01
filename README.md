@@ -46,7 +46,7 @@ This To-Do List application allows users to add, check, and remove tasks easily.
     ```bash
     open index.html
     ```
-4. Or you can follow this link [TODO-app](https://github.com/1sma31L/TODO-app)
+4. Or you can follow this link [TODO-app](https://1sma31l.github.io/TODO-app/)
 ## Usage
 
 - Enter a task in the input field and click the "ADD" button or press Enter to add the task.
