@@ -1,35 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
+	--gradient-color-1: rgb(0, 10, 30);
+	--gradient-color-2: rgb(100, 10, 120);
 	--accent-color: #ff5648;
+	--grey-scaled-accent-color: #e9493a;
+	--title-color: #2c2740;
 	--input-color: #edeef0;
 }
+
 ::selection {
 	background-color: var(--accent-color);
 	color: white;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: "Poppins", sans-serif;
 	box-sizing: border-box;
 }
+
 body {
 	background: linear-gradient(
 		138deg,
-		rgba(2, 32, 98, 1) 0%,
-		rgba(74, 8, 95, 1) 100%
+		var(--gradient-color-1) 0%,
+		var(--gradient-color-2) 100%
 	);
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgb(255, 255, 255);
+	background-color: white;
 	padding: 35px;
 	padding-bottom: 100px;
 	gap: 10px;
@@ -47,11 +56,12 @@ body {
 }
 
 .title h1 {
-	color: #2c2740;
+	color: var(--title-color);
 	font-size: 35px;
 	display: inline;
 	margin-right: 10px;
 }
+
 .title img {
 	width: 50px;
 }
@@ -63,6 +73,7 @@ body {
 	align-items: center;
 	margin: 30px 0;
 }
+
 .input-field button {
 	font-weight: bold;
 	border: none;
@@ -74,9 +85,11 @@ body {
 	border-radius: 0 50px 50px 0;
 	transition: background-color 0.3s;
 }
+
 .input-field button:hover {
-	background-color: #e9493a;
+	background-color: var(--grey-scaled-accent-color);
 }
+
 .input-field input {
 	width: 100%;
 	padding: 20px;
@@ -85,23 +98,19 @@ body {
 	background-color: var(--input-color);
 	outline: none;
 }
+
 .task {
 	display: flex;
 	justify-content: space-between;
-	/* align-items:flex-start; */
 	align-items: baseline;
-
-	/* background-color: var(--input-color); */
 	padding: 10px 0;
-	/* border-radius: 50px; */
 	width: 100%;
 }
+
 .task p {
-	text-indent: 5px;
 	width: 80%;
 	text-align: left;
 	font-size: 22px;
-	/* border-left: 5px solid #2c2740; */
 }
 
 .task i {
@@ -110,14 +119,17 @@ body {
 	color: grey;
 	transition: filter 0.3s, transform 0.3s;
 }
+
 .task i:hover {
 	filter: contrast(3);
 	transform: scale(1.08);
 }
+
 .task .fa-circle-check {
 	opacity: 1;
 	color: var(--accent-color);
 }
+
 .task.checked p {
 	text-decoration: line-through;
 	opacity: 0.6;
