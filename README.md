@@ -92,6 +92,6 @@ You are free to use, share, and modify this code for personal or educational pur
 
 ## Contact
 
-- GitHub: [1sma3iL](https://github.com/1sma3iL)
+
 - Email: am.boussekine@ensta.edu.dz
 
