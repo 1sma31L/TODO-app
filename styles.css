@@ -31,7 +31,8 @@ body {
 	flex-direction: column;
 	background-color: rgb(255, 255, 255);
 	padding: 35px;
-	gap: 30px;
+  padding-bottom: 100px;
+	gap: 10px;
 	border-radius: 15px;
 	width: 600px;
 	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -60,6 +61,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 30px 0;
 }
 .input-field button {
 	font-weight: bold;
@@ -83,6 +85,41 @@ body {
 	background-color: var(--input-color);
 	outline: none;
 }
-/* .input-field input:focus {
-	color: transparent;
-} */
+.task {
+	display: flex;
+	justify-content: space-between;
+	/* align-items:flex-start; */
+	align-items:baseline;
+
+	/* background-color: var(--input-color); */
+	padding: 10px 0;
+	/* border-radius: 50px; */
+	width: 100%;
+}
+.task p {
+	text-indent: 5px;
+	width: 80%;
+	text-align: left;
+	font-size: 22px;
+	/* border-left: 5px solid #2c2740; */
+}
+
+.task i {
+  opacity: 0.6;
+	cursor: pointer;
+	color: grey;
+  transition: filter 0.3s, transform 0.3s;
+}
+.task i:hover {
+  filter: contrast(3);
+  transform: scale(1.08);
+}
+.task .fa-circle-check {
+  opacity: 1;
+	color: var(--accent-color);
+}
+.task.checked p {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
