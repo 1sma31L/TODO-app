@@ -13,36 +13,19 @@
 				<h1>To-Do List</h1>
 				<img src="assets/icon.png" alt="" />
 			</div>
-
+			<div class="stats"></div>
+			
 			<div class="input-field">
 				<input
 					type="text"
+					class="input-task"
 					placeholder="Add your task..."
 					onfocus="this.placeholder = ''"
 					onblur="this.placeholder = 'Add your task...'"
 				/>
-				<button>ADD</button>
+				<button class="btn" type="submit">ADD</button>
 			</div>
-			<div class="task checked">
-				<i class="fa-solid fa-circle-check fa-lg"></i>
-				<p>Buy milk, eggs, bread, and vegetables.</p>
-				<i class="fa-solid fa-xmark"></i>
-			</div>
-			<div class="task">
-				<i class="fa-regular fa-circle fa-lg"></i>
-				<p>Complete a 30-minute cardio session.</p>
-				<i class="fa-solid fa-xmark"></i>
-			</div>
-			<div class="task">
-				<i class="fa-regular fa-circle fa-lg"></i>
-				<p>Read at least 50 pages of a new book.</p>
-				<i class="fa-solid fa-xmark"></i>
-			</div>
-			<div class="task">
-				<i class="fa-regular fa-circle fa-lg"></i>
-				<p>Vacuum the living room and clean the kitchen.</p>
-				<i class="fa-solid fa-xmark"></i>
-			</div>
+			<div class="tasks"></div>
 		</div>
 		<script
 			src="https://kit.fontawesome.com/dab90a847c.js"
