@@ -80,11 +80,17 @@ function addEventListeners() {
       togglError("", false);
       if (tasksCounter === 0) {
         taskStats.innerHTML = "";
-      }   
+      }
     });
   });
 };
 
+taskInputFeild.addEventListener('keydown', (event) => {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    taskAddButton.click();
+  }
+});
 
 taskAddButton.addEventListener("click", () => {
   togglError("", false);
