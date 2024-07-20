@@ -34,7 +34,6 @@ body {
 }
 
 .container {
-	margin: 200px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -51,6 +50,7 @@ body {
 .container:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .title {
 	display: flex;
 	align-items: center;
