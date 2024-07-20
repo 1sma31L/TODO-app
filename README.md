@@ -20,8 +20,6 @@ A simple, responsive To-Do List application built with HTML, CSS, and JavaScript
 ## Preview
 ![](assets/1.png)
 ![](assets/2.png)
-![](assets/3.png)
-![](assets/4.png)
 
 ## Introduction
 
