@@ -4,18 +4,21 @@
 		min-height: 100vh;
 		margin: none;
 	}
+
 	.task p {
 		font-size: 18px;
 	}
+
 	.input-field button {
 		width: 150px;
 		padding: 12px 8px;
-		/* font-size: 15px; */
 	}
+
 	.input-field input {
 		padding: 12px;
 		border-radius: 50px 0 0 50px;
 	}
+
 	.input-field input::placeholder {
 		font-size: 12px;
 	}
